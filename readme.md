@@ -2,14 +2,6 @@
 
 A simple UNIX shell encryption utility in C that applies secure transformation to command-line input and output.
 
-## Repository Name
-
-**nyuenc**
-
-## Short Description
-
-nyuenc is a lightweight tool for encrypting and decrypting command-line arguments or piped input using a symmetric cipher. It supports customizable keys, various cipher modes (ECB, CBC), and integrates seamlessly into shell pipelines.
-
 ## Contents
 
 - **nyuenc.c**: Main source file implementing parsing of arguments, key handling, and encryption/decryption routines.
@@ -67,8 +59,4 @@ Remove generated files:
 ```sh
 make clean
 ```
-
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
 
