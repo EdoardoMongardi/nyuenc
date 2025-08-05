@@ -1,0 +1,5 @@
+strace: test_ptrace_get_syscall_info: PTRACE_TRACEME: Function not implemented
+strace: ptrace(PTRACE_TRACEME, ...): Function not implemented
+strace: PTRACE_SETOPTIONS: Function not implemented
+strace: detach: waitpid(125): No child processes
+strace: Process 125 detached
